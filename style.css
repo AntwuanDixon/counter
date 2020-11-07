@@ -1,0 +1,42 @@
+body {
+    display: block;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(214, 255, 252) , rgb(255, 223, 197));
+}
+
+button {
+    font-family: Geneva, Verdana, sans-serif;
+    background-color: rgb(170, 170, 170);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4%;
+    font-size: 200%;
+    border: none;
+}
+
+button:hover {background-color:  rgb(112, 112, 112)}
+
+button:active {
+    background-color: rgb(112, 112, 112);
+    box-shadow: 0 5px rgb(192, 192, 192);
+    transform: translateY(4px);
+  }
+
+.container {
+width: 25%;
+display: block;
+margin-top: 40vh;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+#num-input {
+    width: 200px;
+    margin-right: 5%;
+    padding: 15px 10px;
+    font-size: 200%;
+    border-radius: 4%;
+    font-family: Geneva, Verdana, sans-serif;
+    border: none;
+}
